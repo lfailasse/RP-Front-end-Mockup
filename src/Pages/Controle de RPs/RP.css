@@ -1,0 +1,115 @@
+.RP_selection_filter {
+    display: block;
+    width: 2cm;
+    height: 100%;
+}
+
+.redirect_rps {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    bottom: 50%;
+}
+
+.redirect_rps:hover {
+    color: rgb(149, 222, 224);
+}
+
+.redirect_rps:active {
+    color: rgb(124, 159, 187);
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.page-item {
+    list-style-type: none;
+}
+
+.page-item :hover {
+    background-color: rgb(194, 199, 216);
+}
+
+.page-item :active {
+    background-color: rgb(74, 70, 107);
+    color: white;
+}
+
+.page-break {
+    list-style-type: none;
+}
+
+.page-breaklink {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 8px;
+    width: 10px;
+    margin: 5px;
+}
+
+.page-link {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-link :hover {
+    background-color: rgb(149, 171, 245);
+}
+
+.page-previous-next {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-active {
+    background-color: rgb(3, 0, 32);
+    color: white;
+    border: 1px solid black;
+    padding: 4px;
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-active:hover {
+    background-color: rgb(0, 7, 7);
+    color: white;
+}
+
+.pdf_cancel {
+    height: 100%;
+    display: block;
+    color: black;
+    margin-left: 10px;
+}
+
+.pdf_cancel:hover {
+    color: rgb(139, 0, 0);
+    cursor: pointer;
+}
+
+.pdf_cancel:active {
+    color: rgb(73, 0, 0);
+}

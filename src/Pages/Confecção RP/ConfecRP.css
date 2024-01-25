@@ -1,0 +1,82 @@
+.div_rp, .div_regfav {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+.div_rp {
+    margin-bottom: 1cm;
+    background-color: rgba(1, 1, 56, 0.397);
+    box-shadow: 5px 5px 5px 0px rgba(2, 0, 36, 0.63);
+}
+
+.div_regfav {
+    padding: 10px;
+    margin-bottom: 2cm;
+    background-color: rgba(1, 1, 80, 0.301);
+}
+
+.div_rp_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_rp_main_cabeçalho {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_rp_main_corpo {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px 0 30px;
+}
+
+.input_cheque_n,
+.input_cheque_nome,
+.input_cheque_pix {
+    margin-left: 5px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.input_cheque_n {
+    width: 10%;
+}
+
+.input_cheque_nome {
+    width: 20%;
+}
+
+.input_cheque_pix {
+    width: 70%;
+}
+
+.redirect_confecrp {
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.redirect_confecrp:hover {
+    color: rgb(149, 222, 224);
+}
+
+.redirect_confecrp:active {
+    color: rgb(124, 159, 187);
+}
+
+.rpconfec_select {
+    font-size: 13px;
+    max-width: 90%;
+    color: black;
+}
