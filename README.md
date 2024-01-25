@@ -24,7 +24,7 @@ O RP-Front-end-Mockup é uma aplicação web baseada em React, desenvolvida como
 
 A aplicação possui Dockerfile integrado com as configurações necessárias para deploy em imagem, utilizando multistage
 
-O arquivo "nginx.conf" aplica definições necessárias para o funcionamento preciso do site.
+O arquivo "nginx.conf" aplica definições para o funcionamento preciso do site.
 
 - Com o docker devidamente instalado, utilize:
    ```bash
