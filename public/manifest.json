@@ -1,0 +1,41 @@
+{
+  "short_name": "HTS_APP",
+  "name": "Gestão financeira",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "234x222",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "screenshots": [
+    {
+     "src": "assets/bg.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Wonder Widgets"
+    },
+    {
+      "src": "logo512.png",
+       "sizes": "512x512",
+       "type": "image/png",
+       "form_factor": "narrow",
+       "label": "Wonder Widgets"
+     }
+]
+}

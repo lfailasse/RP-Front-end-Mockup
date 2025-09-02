@@ -1,0 +1,65 @@
+.register_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register_div_form {
+    margin-top: 1cm;
+    height: 8cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.div_register {
+    width: 100%;
+    background-color: rgb(3, 5, 32);
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.185);
+}
+
+.register_label {
+    font-size: large;
+    color: white;
+}
+
+.register_testtrue {
+    font-size: 13px;
+    color: rgb(62, 255, 239);
+    margin-top: 1cm;
+}
+
+.register_testfalse {
+    font-size: 13px;
+    color: orange;
+    margin-top: 1cm;
+}
+
+.register_input {
+    height: 0.5cm;
+    border-radius: 10px;
+}
+
+.register_input::placeholder{
+    opacity: 0.8;
+    text-align: center;
+    color:rgb(19, 26, 97);
+}
+
+.register_submit {
+    background-color: #d22e1c;
+    color: white;
+    border-radius: 7px;
+    width: 3cm;
+}
+
+.register_submit:hover {
+    background-color: #a92517;
+}
+
+.register_submit:active {
+    background-color: #831d12;
+    color: white;
+}

@@ -1,0 +1,43 @@
+@media screen and (min-width: 1920px) {
+
+    iframe {
+        width: 1500px;
+        height: 612px;
+        border: 1px solid rgb(3, 5, 32);
+    }
+
+    dialog::backdrop {
+        animation: backdrop-fade 3s ease backwards;
+        filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.418);
+    }
+
+    dialog[open]::backdrop {
+        animation: backdrop-fade 2s  ease forwards;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+    iframe {
+        width: 1200px;
+        height: 612px;
+        border: 1px solid rgb(3, 5, 32);
+    }
+
+    dialog  {
+        border-radius: 10px;
+    }
+
+    dialog::backdrop {
+        animation: backdrop-fade 3s ease backwards;
+        filter: blur(5px);
+        background-color: rgba(0, 0, 0, 0.541);
+    }
+
+    dialog[open]::backdrop {
+        animation: backdrop-fade 2s  ease forwards;
+    }
+
+}

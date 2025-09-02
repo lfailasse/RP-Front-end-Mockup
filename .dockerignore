@@ -1,0 +1,10 @@
+.git
+.gitignore
+*.md
+#node_modules
+*.log
+tmp
+temp
+.cache
+*.tar
+README.md

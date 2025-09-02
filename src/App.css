@@ -1,0 +1,79 @@
+.div_home {
+    align-content: center;
+}
+
+.home_welcome {
+    margin-top: 3.5cm;
+    text-align: center;
+}
+
+.home_nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: all 0.2s;
+}
+
+.home_nav:hover {
+    background-color: rgb(29, 46, 71);
+    color: white;
+}
+
+.home_nav_link {
+    color: white;
+    text-decoration: none;
+}
+
+.home_nav_link:hover {
+    color: rgb(116, 125, 255);
+}
+
+.home_nav_link:active {
+    color: rgb(57, 29, 133);
+}
+
+.logout {
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.logout:hover {
+    cursor: pointer;
+    color: rgb(161, 0, 167);
+}
+
+.logout:active {
+    color: blueviolet;
+}
+
+.home_bi {
+    margin-top: 2cm;
+}
+
+.div_home_gifs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app_close_dialog {
+    text-align: center;
+    color: rgb(186, 0, 0)
+}
+
+.app_close_dialog:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.app_close_dialog:active {
+    color: brown;
+}

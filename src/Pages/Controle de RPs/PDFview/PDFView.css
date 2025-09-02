@@ -1,0 +1,10 @@
+.number_input_pag {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.number_input_pag::-webkit-outer-spin-button,
+.number_input_pag::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

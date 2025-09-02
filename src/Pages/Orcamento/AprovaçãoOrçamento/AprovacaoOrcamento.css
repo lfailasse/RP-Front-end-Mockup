@@ -1,0 +1,1048 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.page-item {
+    list-style-type: none;
+}
+
+.page-item :hover {
+    background-color: rgb(194, 199, 216);
+}
+
+.page-item :active {
+    background-color: rgb(74, 70, 107);
+    color: white;
+}
+
+.orcamento_select {
+    height: 1cm;
+    width: 10cm;
+    color: black;
+}
+
+.page-break {
+    list-style-type: none;
+}
+
+.page-breaklink {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 8px;
+    width: 10px;
+    margin: 5px;
+}
+
+.page-link {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-link :hover {
+    background-color: rgb(149, 171, 245);
+}
+
+.page-previous-next {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-active {
+    background-color: rgb(3, 0, 32);
+    color: white;
+    border: 1px solid black;
+    padding: 4px;
+    height: 8px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.page-active:hover {
+    background-color: rgb(0, 7, 7);
+    color: white;
+}
+
+@media (min-width: 870px) {
+
+    .RP_selection_filter {
+        display: block;
+        width: 2cm;
+        height: 100%;
+    }
+
+    .RP_date_filter {
+        display: block;
+        width: 4cm;
+        height: 100%;
+    }
+
+    .rp_date_filter_info {
+        cursor: pointer;
+        color: black;
+    }
+
+    .rp_date_filter_info:hover {
+        color: rgb(34, 31, 31);
+    }
+
+    .rp_datainformada {
+        display: flex;
+        flex-direction: row;
+        gap: 1cm;
+        text-align: center;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1cm;
+    }
+
+    .redirect_rps {
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 50%;
+        bottom: 50%;
+    }
+
+
+    .redirect_rps:hover {
+        color: rgb(149, 222, 224);
+    }
+
+    .redirect_rps:active {
+        color: rgb(124, 159, 187);
+    }
+
+    .redirect_rpsforward {
+        color: white;
+        position: fixed;
+        right: 0;
+        top: 50%;
+        bottom: 50%;
+    }
+
+    .redirect_rpsforward:hover {
+        color: rgb(149, 222, 224);
+    }
+
+    .redirect_rpsforward:active {
+        color: rgb(124, 159, 187);
+    }
+
+    .modal_editrp {
+        height: 60%;
+        width: 60%;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .div_editrp_rpitems {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .div_devolucaorp {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        color: orange;
+    }
+
+    .div_devolucaorp:hover,
+    div.div_devolucaorp:hover label {
+        color: orangered;
+        cursor: pointer;
+    }
+
+    .div_devolucaorp:active,
+    div.div_devolucaorp:active label {
+        color: rgb(165, 44, 0)
+    }
+
+    .modal_editrp_main_form {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        margin-top: 1cm;
+    }
+
+    .modal_editrp_main_div {
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+    }
+
+    .modal_editrp_rp {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 110%;
+        border-right: 1px solid black;
+    }
+
+    .modal_editrp_rp_title {
+        margin-bottom: 0.5cm;
+    }
+
+    .div_editrp_rp_atributo {
+        margin-top: 10px;
+        display: flex;
+        width: 90%;
+    }
+
+    .div_editrp_rp_atributo_label {
+        width: 50%;
+        text-align: start;
+        padding-left: 1cm;
+    }
+
+    .div_editrp_rp_atributo_input {
+        box-sizing: border-box;
+        width: 50%;
+        resize: none;
+    }
+
+    .div_editrp_rp_atributo_inputdocumento {
+        box-sizing: border-box;
+        width: 50%;
+        resize: none;
+        background-color: rgb(192, 192, 192);
+    }
+
+    .div_editrp_rpitems_atributo_inputname {
+        width: 70%;
+    }
+
+    .div_editrp_rpitems_atributo_inputvalue {
+        width: 30%;
+    }
+
+    .modal_editrp_rpitems {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 110%;
+    }
+
+    .div_editrp_form_submit {
+        margin-top: 2cm;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .editrp_form_submit {
+        width: 2cm;
+    }
+
+    .button_editrp {
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .rp_edit {
+        color: white;
+    }
+
+    .rp_edit:hover {
+        color: orange;
+    }
+
+    .rp_edit:active {
+        color: brown;
+    }
+
+    .pdf_cancel {
+        height: 100%;
+        display: block;
+        color: black;
+        margin-left: 10px;
+    }
+
+    .pdf_cancel:hover {
+        color: rgb(139, 0, 0);
+        cursor: pointer;
+    }
+
+    .pdf_cancel:active {
+        color: rgb(73, 0, 0);
+    }
+
+    .pdf_save {
+        color: black;
+    }
+
+    .pdf_save:hover {
+        color: rgb(255, 174, 0);
+        cursor: pointer;
+    }
+
+    .pdf_save:active {
+        color: rgb(150, 97, 0);
+    }
+
+    .pdf_info {
+        color: rgb(133, 189, 170);
+        cursor: pointer;
+    }
+
+    .pdf_info:hover {
+        color: aquamarine;
+    }
+
+    .div_periodo {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1cm;
+    }
+
+    .input_signature_gerencia {
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: rgb(171, 171, 253);
+    }
+
+    .input_signature_controladoria {
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: rgb(255, 129, 129);
+    }
+
+    .input_signature_gerencia:hover {
+        background-color: rgb(128, 128, 252);
+        cursor: pointer;
+    }
+
+    .input_signature_controladoria:hover {
+        background-color: rgb(231, 76, 76);
+        cursor: pointer;
+    }
+
+    .input_signature_gerencia:active {
+        background-color: rgb(84, 84, 221);
+    }
+
+    .input_signature_controladoria:active {
+        background-color: rgb(141, 22, 22);
+    }
+
+    .label_download_file {
+        color: white;
+    }
+
+    .label_download_file:hover {
+        cursor: pointer;
+        color: rgb(33, 192, 192);
+    }
+
+    .label_download_file:active {
+        color: rgb(28, 114, 114);
+    }
+
+    .div_main_columns {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_columns {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 1cm
+    }
+
+    .div_main_info_columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .div_main_info_column {
+        width: 90%;
+    }
+
+    .div_info_columns {
+        border-top: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left
+    }
+
+    .div_info_column {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .div_info_column_content {
+        width: 11%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+
+    .div_info_column_content_visualizar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 11%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+
+
+    .button_visualizarpdf {
+        margin-top: 4px;
+    }
+
+    .button_cancelarpdf_false {
+        margin-top: 5px;
+        position: absolute;
+        width: 30px;
+    }
+
+    .button_cancelarpdf_true {
+        margin-top: 5px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .button_salvarmodelo {
+        margin-top: 5px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .div_info_columns_loading_label {
+        text-align: center;
+        color: white
+    }
+
+    .div_column {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 11%;
+        text-overflow: ellipsis;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .div_column_visualizar {
+        width: 11%;
+        font-weight: bold;
+        color: white;
+    }
+
+    .div_column label {
+        cursor: pointer;
+    }
+
+    .div_column label:hover {
+        color: rgb(179, 228, 255);
+    }
+
+    .div_column label:active {
+        color: rgb(108, 157, 184);
+    }
+
+    .reject_rp {
+        color: black;
+        background-color: orange;
+        border-radius: 5px;
+    }
+
+    .reject_rp:hover {
+        background-color: rgb(255, 195, 83);
+    }
+
+    .reject_rp:active {
+        background-color: rgb(188, 122, 0);
+    }
+
+    .dialog_modal {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .dialog_notificacao {
+        z-index: 99;
+        position: fixed;
+        height: 50%;
+        width: 40%;
+        overflow-y: auto;
+        border-radius: 5px;
+    }
+
+    .div_remove_rejectedrp {
+        cursor: pointer;
+        display: flex;
+        margin-left: 5px;
+        color: red;
+    }
+
+    .div_remove_rejectedrp:hover {
+        color: rgb(255, 119, 119);
+    }
+
+    .div_remove_rejectedrp:active {
+        color: rgb(156, 1, 1)
+    }
+
+    .dialog_backarrow:hover {
+        color: rgb(0, 104, 145);
+    }
+
+    .dialog_modal[open]::backdrop {
+        background-color: rgba(0, 0, 0, 0.500);
+    }
+
+    .dialog_modal_div {
+        border-radius: 10px;
+        box-shadow: 0px 7px 5px 1px rgba(0, 0, 0, 0.425);
+        width: 40%;
+        background-color: white;
+        border: 2px solid black;
+        margin-left: 30%;
+        margin-top: 2cm;
+    }
+
+    .dialog_modal_div_button {
+        width: 30px;
+        height: 1cm;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .div_downloadpdf {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .div_pdfview_info {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: rgba(1, 1, 56, 0.397);
+        box-shadow: 5px 5px 5px 5px rgba(2, 0, 36, 0.63);
+        border-top: 1px solid black;
+        border-bottom: 1px solid black
+    }
+
+    .div_pdfview_info_pdfviewer {
+        height: 80vh;
+        width: 70%;
+    }
+
+    .main_div_rp {
+        margin-bottom: 2cm;
+        position: relative
+    }
+
+    .main_div_rp_loading {
+        margin-bottom: 2cm;
+        position: relative;
+        filter: brightness(50%) blur(3px);
+        transition: all 300ms;
+    }
+
+    .main_filter_div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2cm
+    }
+
+    .main_filter_div_search_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px
+    }
+
+    .label_white {
+        color: white;
+    }
+
+    .main_filter_div_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main_filter_div_form_inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .search_button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rp_date_filter_info_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input_date {
+        margin-left: 5px;
+        color: black;
+    }
+
+    .main_div_filter_situacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .main_div_filter_situacao_div {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end
+    }
+
+    .div_rejectedreason {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 9px;
+    }
+
+    .div_addfiles {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .div_main_anexos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+
+    .input_files {
+        color: white;
+    }
+
+    .button_sendfiles {
+        width: 3cm
+    }
+
+    .div_backarrow {
+        display: flex;
+        flex-direction: row
+    }
+
+    .div_reject {
+        padding: 20px
+    }
+
+    .div_reject_desc {
+        display: flex;
+        flex-direction: column
+    }
+
+    .div_reject_desc_label {
+        margin-top: 20px
+    }
+
+    .label_reject_desc {
+        font-size: 12px
+    }
+
+    .dialog_reason_desc {
+        width: 100%;
+        height: 1.5cm;
+        border: 1px solid black;
+        border-radius: 5px;
+        resize: none
+    }
+
+    .dialog_reason_submit_button {
+        height: 1cm;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end
+    }
+
+    .div_pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+    .div_main_anexos_files {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 9px
+    }
+
+    .button_delete_anexo {
+        position: absolute;
+        left: 10cm;
+        color: orange;
+        cursor: pointer;
+    }
+
+    .button_delete_anexo :hover {
+        color: rgb(255, 94, 0);
+    }
+
+    .button_delete_anexo :active {
+        color: rgb(220, 59, 0);
+    }
+
+    .label_rejectedreason {
+        color: orange;
+        font-size: 13px;
+    }
+
+    .label_anexos {
+        color: white
+    }
+
+    .label_situacao {
+        margin-right: 5px;
+        color: white
+    }
+
+    .label_datacriacao {
+        color: white;
+    }
+
+    .label_content_title {
+        display: none
+    }
+
+}
+
+@media (max-width: 870px) {
+
+    .div_columns {
+        display: none;
+    }
+
+    .div_main_info_column {
+        margin-bottom: 0.5cm;
+    }
+
+    .div_info_columns {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(106, 115, 197, 0.316);
+        border: 0.5px solid white;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .div_info_columns_opened {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(106, 115, 197, 0.316);
+        border: 0.5px solid white;
+        border-bottom: none;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .div_info_columns_rejected_opened {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 149, 0, 0.316);
+        border: 0.5px solid white;
+        border-bottom: none;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .div_info_columns_canceled {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(237, 25, 25, 0.316);
+        border: 0.5px solid white;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .div_info_columns_canceled_opened {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(237, 25, 25, 0.316);
+        border: 0.5px solid white;
+        border-bottom: none;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .div_info_columns_rejected {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 149, 0, 0.316);
+        border: 0.5px solid white;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .div_info_column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_info_column_content {
+        color: white;
+        overflow: auto;
+    }
+
+    .div_info_column_content:nth-last-child(3) {
+        display: none;
+    }
+
+    .button_cancelarpdf_true {
+        display: none;
+    }
+
+    .button_salvarmodelo {
+        display: none;
+    }
+
+    .button_editrp {
+        display: none;
+    }
+
+    .label_content_title {
+        color: rgb(51, 205, 232);
+    }
+
+    .div_main_info_columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+
+    .main_filter_div {
+        display: none;
+    }
+
+    .main_div_filter_situacao {
+        display: none;
+    }
+
+    .redirect_rps {
+        display: none;
+    }
+
+    .redirect_rpsforward {
+        display: none;
+    }
+
+    .div_pdfview_info {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.316);
+        border: 0.5px solid white;
+        border-top: none;
+        color: white;
+        padding: 10px;
+        width: 85%;
+        height: 100%;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .div_pdfview_info_pdfviewer {
+        display: none;
+    }
+
+    .div_main_anexos {
+        margin-top: 10px;
+        margin-bottom: 1cm;
+    }
+
+    .label_download_file {
+        color: rgb(0, 186, 254);
+    }
+
+    .reject_rp {
+        background-color: rgb(239, 239, 239);
+        height: 1cm;
+        color: black;
+    }
+
+    .reject_rp:hover {
+        background-color: rgb(160, 160, 160);
+        height: 1cm;
+        color: black;
+    }
+
+    .input_signature_controladoria {
+        height: 1cm;
+    }
+
+    .input_signature_gerencia {
+        height: 1cm;
+    }
+
+    .div_addfiles {
+        display: none;
+    }
+
+    .label_datacriacao {
+        width: 100%;
+        margin-bottom: 1cm;
+    }
+
+    .button_visualizarpdf {
+        display: none;
+    }
+
+    .dialog_modal_div {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 5cm;
+    }
+
+    .div_reject {
+        width: 100%;
+    }
+
+    .div_rejectedreason {
+        margin-bottom: 1cm;
+        color: orange;
+    }
+
+    .div_reject_form {
+        width: 100%;
+    }
+
+    .div_reject_desc {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_reject_desc_label {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dialog_reason_desc {
+        width: 90%;
+        height: 2cm;
+        padding: 0;
+    }
+
+    .dialog_reason_submit_button {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reason_submit_button {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .div_pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+}

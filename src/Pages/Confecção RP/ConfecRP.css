@@ -1,0 +1,713 @@
+.main_div_confecrp {
+    position: relative;
+}
+
+.div_favorecido_registrarrp {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.div_favorecido_registrarrp_button {
+    margin-left: auto;
+}
+
+.div_rp,
+.div_regfav {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+.div_rp {
+    margin-bottom: 1cm;
+    background-color: rgba(1, 1, 56, 0.397);
+    box-shadow: 5px 5px 5px 0px rgba(2, 0, 36, 0.63);
+}
+
+.div_regfav {
+    padding: 10px;
+    margin-bottom: 2cm;
+    background-color: rgba(1, 1, 80, 0.301);
+}
+
+.div_rp_main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_rp_main_cabeçalho {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_rp_main_cabeçalho_itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.div_rp_main_cabeçalho_item {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.div_rp_main_selects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.div_rp_main_select {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.div_rp_main_dataemissao {
+    border-radius: 5px;
+}
+
+.div_rp_main_line_div {
+    width: 90%;
+    margin: auto;
+}
+
+.div_rp_main_line {
+    color: white;
+}
+
+.div_rp_main_corpo {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px 0 30px;
+}
+
+.div_rp_main_corpo_selects {
+    width: 50%;
+}
+
+.div_rp_main_corpo_select {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_rp_main_corpo_favdocumento {
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: rgb(150, 150, 150);
+}
+
+.div_rp_main_corpo_datapagamento {
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.div_rp_main_corpo_additems {
+    box-shadow: 5px 5px 5px 0px rgba(1, 1, 30, 0.500);
+    background-color: rgba(1, 1, 110, 0.301);
+    width: 50%;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.div_rp_main_corpo_additems_item {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div_rp_main_corpo_additems_name {
+    width: 3cm;
+    margin-right: 20px;
+}
+
+.div_rp_main_corpo_additems_value {
+    width: 2cm;
+}
+
+.div_rp_main_corpo_additems_itemlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_rp_main_corpo_additems_itemlist_items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.div_rp_main_corpo_additems_itemlist_items_name {
+    border-radius: 5px;
+    width: 3cm;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.div_rp_main_corpo_additems_itemlist_items_value {
+    border-radius: 5px;
+    width: 2cm;
+    box-sizing: border-box;
+}
+
+.div_contaprovisao {
+    margin-top: 1cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div_contaprovisao_checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    accent-color: black;
+}
+
+.provisao_value_text {
+    margin-top: 5px;
+}
+
+.provisao_value {
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 2cm;
+}
+
+.div_rp_main_corpo_description {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.div_rp_main_corpo_description_label {
+    margin-right: 5px;
+}
+
+.div_rp_main_corpo_desc {
+    width: 45%;
+    height: 20px;
+    min-width: 45%;
+    min-height: 20px;
+    max-width: 80%;
+    max-height: 7cm;
+    border-radius: 5px;
+}
+
+.div_rp_main_corpo_hr_div {
+    width: 90%;
+    margin: auto;
+}
+
+.div_rp_main_corpo_hr {
+    height: 0.5px;
+    color: white;
+}
+
+.div_paymentselect_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_paymentselect {
+    margin: 1cm;
+}
+
+.div_payment_option {
+    width: 100%;
+    margin: 1cm;
+}
+
+.div_payment {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_payment_label {
+    width: 2cm;
+}
+
+.pix_input {
+    width: 60%;
+}
+
+.div_payment_hr {
+    width: 90%;
+    margin: auto;
+}
+
+.div_payment_hr {
+    height: 0.5px;
+    color: white;
+}
+
+.div_rp_main_corpo_additems_delbutton {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.div_anexos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_anexos_label {
+    width: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.div_anexos_input {
+    width: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.div_rp_main_corpo_submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1cm;
+}
+
+.nomefavorecido_input {
+    border-radius: 5px;
+}
+
+.docfavorecido_input {
+    border-radius: 5px;
+}
+
+.div_rp_main_corpo label {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.input_cheque_n,
+.input_cheque_nome,
+.input_cheque_pix {
+    margin-left: 5px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.input_cheque_n {
+    width: 10%;
+}
+
+.input_cheque_nome {
+    width: 20%;
+}
+
+.input_cheque_pix {
+    width: 70%;
+}
+
+
+.redirect_confecrp {
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.redirect_confecrp:hover {
+    color: rgb(149, 222, 224);
+}
+
+.redirect_confecrp:active {
+    color: rgb(124, 159, 187);
+}
+
+.rpconfec_select {
+    min-width: 6cm;
+    font-size: 13px;
+    max-width: 90%;
+    color: black;
+}
+
+.div_valortotal {
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.submitbutton {
+    width: 3cm;
+    margin-top: 20px;
+}
+
+.div_orcamento {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_orcamento_select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+.div_orçamento_main {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.reg_favorecidos {
+    position: relative;
+    background-color: rgba(65, 65, 208, 0.181);
+    border: 1px solid white;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.reg_favorecidoslist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.delete_fav {
+    position: absolute;
+    right: 7cm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.delete_fav:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.delete_fav:active {
+    color: rgb(166, 0, 0);
+}
+
+
+/* Contêiner geral */
+.favorecido-container {
+    margin: 20px;
+}
+
+/* Estilos do formulário */
+.favorecido-form-container {
+    border: 1px solid white;
+    width: 80%;
+    background-color: #131d5d61;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para os inputs */
+.favorecido-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.favorecido-submit-btn {
+    background-color: #4c6aaf;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    width: 10%;
+}
+
+.favorecido-submit-btn:hover {
+    background-color: #4e45a0;
+}
+
+.favorecido-submit-btn:active{
+    background-color: #1b1557;
+}
+
+/* Estilos para as opções de documentos */
+.radio-label {
+    margin-right: 15px;
+    color: white;
+}
+
+/* Estilos para a lista de favorecidos */
+.favorecidos-list-container {
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #18569379;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorecidos-list-label {
+    color: rgb(242, 255, 0);
+}
+
+.favorecido-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.favorecido-name {
+    color: white;
+    font-size: 16px;
+}
+
+.favorecido-delete-btn {
+    cursor: pointer;
+    color: rgb(255, 83, 83);
+    font-size: 18px;
+}
+
+.favorecido-delete-btn:hover {
+    color: #c82333;
+}
+
+.favorecido-delete-btn:active {
+    color: #730d18;
+}
+
+/* Estilo da linha separadora */
+.favorecidos-list-divider {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .div_rp,
+    .div_regfav {
+        width: calc(100% - 2px);
+        margin: 0 auto;
+        border-radius: 5px;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .redirect_confecrp {
+        display: none;
+    }
+
+    .div_favorecido_registrarrp {
+        display: none;
+    }
+
+    .div_rp_main_cabeçalho_itens {
+        display: none;
+    }
+
+    .div_rp_main_selects {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .div_rp_main_select {
+        width: 100%;
+    }
+
+    .rpconfec_select {
+        width: 100%;
+    }
+
+    .div_anexos_label {
+        width: 80%;
+        padding: 20px;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .div_anexos_input {
+        width: 80%;
+        padding: 20px;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .div_rp_main_corpo {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .div_rp_main_corpo_selects {
+        width: 100%;
+    }
+
+    .div_rp_main_corpo_select {
+        width: 100%;
+        align-items: center;
+    }
+
+    .div_rp_main_corpo_description {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .div_rp_main_corpo_desc {
+        width: 95%;
+        max-width: none;
+        height: 2cm;
+    }
+
+    .div_rp_main_corpo_additems {
+        width: calc(100% - 40px);
+        border: none;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    
+    .div_rp_main_corpo_additems_item {
+        margin-top: 20px;
+    }
+
+    .div_valortotal {
+        margin-top: 30px;
+    }
+
+    .div_paymentselect_main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .div_paymentselect {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 1cm;
+    }
+
+    .div_payment_option {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 1cm;
+    }
+
+    .pix_input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_cheque_pix {
+        margin-left: 0px;
+        background-color: white;
+        border-radius: 2px;
+        color: black;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+
+    .div_favorecido_registrarrp,
+    .div_rp,
+    .div_regfav {
+        width: 85%;
+    }
+
+    .div_rp_main_corpo {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .div_rp_main_corpo_selects {
+        width: 100%;
+    }
+
+    .div_rp_main_corpo_select,
+    .div_rp_main_corpo_additems {
+        width: 95%;
+    }
+
+    .div_rp_main_corpo_additems_itemlist_items_name,
+    .div_rp_main_corpo_additems_itemlist_items_value {
+        width: 40%;
+    }
+
+    .div_rp_main_corpo_description {
+        padding: 15px;
+    }
+
+    .div_rp_main_corpo_desc {
+        width: 90%;
+    }
+
+    .div_paymentselect_main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_payment {
+        flex-direction: column;
+    }
+
+    .div_anexos_label,
+    .div_anexos_input {
+        padding: 15px;
+    }
+}

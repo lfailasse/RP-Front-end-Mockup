@@ -1,0 +1,47 @@
+.div_assinaturas {
+    margin-top: 3cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_assinaturas_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_assinaturas_form_select {
+    margin-top: 40px;
+    color: black;
+    width: 10cm;
+    height: 1cm;
+}
+
+.div_assinaturas_form_button {
+    margin-top: 20px;
+}
+
+.div_assinaturas_form_divimg {
+    margin-top: 20px;
+}
+
+.div_msg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.div_msg_success {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 174, 255);
+}
+
+
+.div_atenção {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: red;
+}

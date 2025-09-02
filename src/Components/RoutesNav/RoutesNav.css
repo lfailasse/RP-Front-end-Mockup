@@ -1,0 +1,85 @@
+.router_div_routerlink {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5cm;
+    width: 15cm;
+    display: flex;
+    text-align: center;
+    border-color: black;
+    border-style: groove;
+    border-width: 1px;
+    transition: all .6s;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+
+.router_div_routerlink:hover{
+    background-color: rgb(14, 14, 83);
+}
+
+.router_div_link{
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all .10s;
+}
+
+.loading {
+    color: white;
+    font-size: 10px;
+    margin-top: 2cm;
+    width: 100%;
+    text-align: center;
+}
+
+.router_div_link:hover {
+    color: rgb(111, 111, 255);
+}
+
+.router_div_link:active {
+    color: rgb(7, 3, 233);
+}
+
+::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 6px;
+    height: 2px;
+    background-color: rgb(184, 184, 245);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(0, 39, 112);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(1, 2, 54);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(4, 4, 34);
+}
+
+.router_notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.routesnav_footer {
+    position:fixed;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(3, 5, 32);
+    box-shadow: 0px 5px 100px 40px rgba(0, 0, 0, 0.295);
+}

@@ -1,0 +1,15 @@
+.resetpass_sendbutton {
+    cursor: pointer;
+    width: 5cm;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;    
+}
+
+.resetpass_sendbutton:hover{
+    background-color: rgb(213, 251, 255);
+}
+
+.resetpass_sendbutton:active {
+    background-color: rgb(84, 163, 165);
+}

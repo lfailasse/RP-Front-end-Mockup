@@ -1,0 +1,218 @@
+.confirm_icon {
+    cursor: pointer;
+    color: rgb(0, 255, 153);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    right: 0.5cm;
+    top: 1cm;
+}
+
+.confirm_icon label {
+    cursor: pointer;
+}
+
+.confirm_icon:hover {
+    color: rgb(0, 128, 122);
+}
+
+.reject_icon {
+    cursor: pointer;
+    color: rgb(232, 88, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3cm;
+    top: 1cm;
+}
+
+.reject_icon label {
+    cursor: pointer;
+}
+
+.reject_icon:hover {
+    color: red;
+}
+
+.label_datacriacao {
+    color: white;
+}
+
+.label_download_file {
+    color: white;
+}
+
+.label_download_file:hover {
+    cursor: pointer;
+    color: rgb(33, 192, 192);
+}
+
+.label_download_file:active {
+    color: rgb(28, 114, 114);
+}
+
+.div_pdfview_info {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(1, 1, 56, 0.397);
+    box-shadow: 5px 5px 5px 5px rgba(2, 0, 36, 0.63);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
+}
+
+.div_pdfview_info_pdfviewer {
+    height: 80vh;
+    width: 70%;
+}
+
+.main_div_rp {
+    margin-bottom: 2cm;
+    position: relative
+}
+
+.main_div_rp_loading {
+    margin-bottom: 2cm;
+    position: relative;
+    filter: brightness(50%) blur(3px);
+    transition: all 300ms;
+}
+
+.div_addfiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.div_main_anexos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.input_files {
+    color: white;
+}
+
+.button_sendfiles {
+    width: 3cm
+}
+
+.div_backarrow {
+    display: flex;
+    flex-direction: row
+}
+
+.div_reject {
+    padding: 20px
+}
+
+.div_reject_desc {
+    display: flex;
+    flex-direction: column
+}
+
+.div_reject_desc_label {
+    margin-top: 20px
+}
+
+.label_reject_desc {
+    font-size: 12px
+}
+
+.dialog_reason_desc {
+    width: 100%;
+    height: 1.5cm;
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: none
+}
+
+.dialog_reason_submit_button {
+    height: 1cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end
+}
+
+.div_pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.div_main_anexos_files {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 9px
+}
+
+.button_delete_anexo {
+    position: absolute;
+    left: 10cm;
+    color: orange;
+    cursor: pointer;
+}
+
+.button_delete_anexo :hover {
+    color: rgb(255, 94, 0);
+}
+
+.button_delete_anexo :active {
+    color: rgb(220, 59, 0);
+}
+
+.label_rejectedreason {
+    color: orange;
+    font-size: 13px;
+}
+
+.label_anexos {
+    color: white
+}
+
+.label_situacao {
+    margin-right: 5px;
+    color: white
+}
+
+.label_datacriacao {
+    color: white;
+}
+
+.label_content_title {
+    display: none
+}
+
+.div_downloadpdf {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.div_column {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 11%;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    overflow: hidden;
+}
