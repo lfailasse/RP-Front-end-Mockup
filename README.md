@@ -2,7 +2,7 @@
 
 O RP-Front-end-Mockup é uma aplicação web baseada em React, desenvolvida como o componente de front-end de um projeto em duas partes. Os endpoints, endereçamentos e informações construídas estão configuradas para interagir com o repositório RP-Back-end-Mockup, que gerencia as operações de back-end.
 
-Pode ser que algumas abas ainda estejam em desenvolvimento, atualmente somente os setores de compras, orçamento e financeiro estão em funcionamento.
+É possível que algumas abas ainda estejam em desenvolvimento. Atualmente, somente os setores de compras, orçamento e financeiro estão em funcionamento.
 
 ## Utilização
 
